@@ -1,0 +1,194 @@
+.page9Par {
+  width: 100%;
+}
+
+.green-head {
+  border-radius: 5px;
+  width: 100%;
+  height: 51px;
+  flex-shrink: 0;
+  background: #1cc600;
+}
+
+.greenh1 {
+  margin: 0;
+  padding-top: 12px;
+  padding-left: 19px;
+  color: #fff;
+  font-family: Calibri;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 27px; /* 150% */
+}
+
+/* Billing -history css */
+
+.Billing-his {
+  margin-left: 193px;
+}
+.bilh1 {
+  color: #262626;
+  font-family: Nunito;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bilp {
+  color: #262626;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.bil-tableheaded {
+  margin: 20px;
+  /* width: 100%; */
+  overflow-x: auto;
+}
+
+.bil-tableheaded table {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.bil-tableheaded th,
+.bil-tableheaded td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: center;
+}
+
+.bil-tableheaded th {
+  background-color: #f2f2f2;
+}
+
+.download-button {
+  width: 101px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #f9f7f7;
+  background: #00c6ff;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.col1-data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col1-datain {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  border: 1px solid #cfcfcf;
+  background: #fff;
+}
+.col1-dataimg {
+  margin-left: 17px;
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+.col1-datah1 {
+  margin-left: 8px;
+  color: #262626;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.bluetd {
+  color: #0856cc;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.thead {
+  width: 1301px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  background: #4d4f50;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.pagination li {
+  margin-right: 10px;
+}
+
+.pagination a {
+  width: 38px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  color: #333;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+.pagination .oneactive {
+  background: #ffa600;
+}
+
+.pagination .current {
+  width: 66px;
+  height: 30px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  background: #fff;
+}
+/* Your existing styles */
+
+/* Add the following styles for responsiveness and alternate row colors */
+@media only screen and (max-width: 600px) {
+  .bil-tableheaded th,
+  .bil-tableheaded td {
+    font-size: 12px;
+  }
+  .Billing-his {
+    margin-left: 0px;
+  }
+  .bil-cont {
+    margin-left: 20px;
+  }
+}
+
+.bil-tableheaded tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.bil-tableheaded tbody tr:nth-child(odd) {
+  background-color: #f0f0f0;
+}
+
+/* Add the following style for handling overflow on small screens */
+.bil-tableheaded {
+  overflow-x: auto;
+}

@@ -1,0 +1,94 @@
+.Page7 {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    fill: #FFF;box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    filter: drop-shadow(0px 0px 45px rgba(0, 0, 0, 0.05));
+   
+    height: auto;
+
+ max-width: 560px;
+  }
+  .immg img{
+    margin-top: 20px;
+  }
+  .papa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Page7 button{
+    cursor: pointer;
+  }
+  
+  .sevenCard {
+    text-align: center;
+  }
+  
+  .threeLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .threebtns {
+    background: rgba(255, 255, 255, 1);
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%; 
+    max-width: 410px;
+    height: 44px;
+    border-radius: 5px;
+    border: 1px solid #E7E7E7;
+    flex-shrink: 0;
+  }
+  
+  .threep {
+    margin-left: 13px;
+  }
+  
+  .checkbox {
+    margin-top: 20px;
+    height: 15px;
+    flex-shrink: 0;
+    border: 1px solid #DDD;
+    background: #FFF;
+    width: 16px;
+  }
+  .checkboxpar{
+    margin-top: 10px;
+    margin-bottom: 81px;
+    padding-left: 60px;
+    padding-right: 15px;
+  }
+  
+  .checkboxpar a {
+    color: #29a0c2;
+    text-decoration: none;
+    font-family: Nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    /* Add styles for screens smaller than 768px */
+    .Page7 {
+      /* max-width: 460px; */
+      margin-left: 5%;
+      margin-right: 5%;
+    }
+    .checkboxpar{
+     padding-left: 10px;
+    }
+  
+    /* .threebtns {
+      max-width: 100%;
+    } */
+  }
+  

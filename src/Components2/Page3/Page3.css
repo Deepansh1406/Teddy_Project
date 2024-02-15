@@ -1,0 +1,102 @@
+.head {
+  display: flex;
+  justify-content: space-between;
+}
+.content1 {
+  text-align: center;
+}
+.up-hr{
+  height: 1px; /* Set the height of the line */
+  background-color: rgba(0, 0, 0, 0.10); /* Set the color of the line */
+  border: none; /* Remove default border */
+}
+.content2 {
+  width: 1319px;
+  height: 264.208px;
+  flex-shrink: 0;
+  margin-left: 181px;
+}
+.conth1{
+  color: #262626;
+font-family: Nunito;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.headh2 {
+  color: #262626;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%; 
+}
+.cross{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #00C6FF;;
+}
+.plus{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #00C6FF;
+  
+}
+.loremp {
+  width: 848.73px;
+  height: 41.824px;
+  color: #636880;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+.loremptwo {
+  width: 100%;
+  height: 60.186px;
+  color: #636880;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 125% */
+}
+.content2 {
+  width: 80%;
+  max-width: 1319px;
+  margin-left: 10%;
+}
+
+@media (max-width: 1200px) {
+  .content2 {
+    width: 90%;
+    margin-left: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  .content2 {
+    width: 100%;
+    margin-left: 0;
+  }
+  .loremp {
+    width: auto;
+  }
+  .loremptwo{
+    width: auto;
+  }
+  .threre{
+    margin-top: 40px ;
+  }
+  .head {
+    justify-content: space-around;
+  }
+  .threelorem{
+    width: 80%;
+    margin-left: 45px;
+  }
+}

@@ -1,0 +1,170 @@
+body {
+  background: white;
+}
+.Page9 {
+  background: #fcaf63;
+}
+.Page8 {
+  background: #fcaf63;
+}
+
+.write-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.writeh1 {
+  color: #262626;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 70px; /* 175% */
+  text-transform: uppercase;
+}
+.wrieth3 {
+  color: #262626;
+  text-align: center;
+  font-family: Calibri;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 100% */
+}
+
+/* CARD CSSS**-- */
+.elipimg {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.card {
+  /* text-align: center; */
+  width: 345px;
+  height: 648px;
+  flex-shrink: 0;
+  border-radius: 11.667px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.05);
+}
+.free {
+  color: #262626;
+  text-align: center;
+  font-family: Nunito;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.freep {
+  margin-left: 27px;
+  margin-right: 35px;
+  color: #262626;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px; /* 137.5% */
+}
+.div3 {
+  /* width: 345px; */
+  padding-left: 37px;
+  padding-top: 24px;
+  height: 124px;
+
+  background: rgba(255, 255, 255, 0.15);
+}
+.divh3 {
+  color: #262626;
+  font-family: Nunito;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+}
+.fea-img {
+  display: flex;
+  margin-top: 10px;
+}
+.fea img {
+  width: 8.3px;
+  height: 7px;
+  flex-shrink: 0;
+}
+.feap {
+  margin-left: 20px;
+  margin-top: 0;
+}
+.buttonbss {
+  margin-top: 39px;
+  display: flex;
+  justify-content: center;
+}
+.get {
+  width: 160px;
+  height: 44px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid #f9f7f7;
+  background: #00c6ff;
+}
+
+/* Responsiveness */
+
+/* Tablet (768px and below) */
+@media (max-width: 768px) {
+  .card {
+    width: 80%;
+    margin: 20px auto; 
+  }
+  .div3 {
+    padding-left: 20px; 
+    height: auto; 
+  }
+
+  .divh3 {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .freep {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .buttonbss {
+    margin-bottom: 20px;
+  }
+  .thirdbtn{
+    margin-top: 5px;
+  }
+}
+
+/* Mobile (576px and below) */
+@media (max-width: 576px) {
+  .card {
+    width: 90%;
+    height: auto;
+    margin: 20px auto;
+  }
+
+
+  .divh3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .freep {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .write-card {
+    display: block;
+  }
+}
+
+

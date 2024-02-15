@@ -1,0 +1,32 @@
+.ok12 {
+  border: none;
+  color: white;
+  width: 513px;
+  height: 55px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #00c6ff;
+}
+.log-pay {
+  margin-bottom: 41px;
+  text-align: center;
+}
+.Failh4 {
+  color: #636880;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .LogoutCard {
+    max-width: 80%;
+  }
+
+  .ok12 {
+    width: 280px;
+  }
+}

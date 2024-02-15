@@ -1,0 +1,76 @@
+/* headfooter.css */
+
+.headfoot-content {
+    background: linear-gradient(0deg, #fcaf63 0%, #fcaf63 100%);
+    padding: 20px;
+  }
+  
+  .up-content {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .down-content-slider {
+    cursor: pointer;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slider-three {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slider-img {
+    display: flex;
+    transition: transform 0.5s ease;
+    max-width: 100%; 
+  }
+  
+  .left-slidArrow,
+  .right-slidArrow {
+    cursor: pointer;
+    margin: 10px;
+  }
+  
+  @media (max-width: 767px) {
+    .headfoot-content {
+      padding: 10px;
+    }
+  
+    .up-content {
+      padding: 10px;
+    }
+  
+    .down-content-slider {
+      margin-top: 10px;
+      flex-direction: row;
+      overflow: hidden; 
+    }
+  
+    /* .slider-img {
+      flex: 0 0 100%; 
+    } */
+  
+    .left-slidArrow,
+    .right-slidArrow {
+      margin: 5px;
+    }
+    .HeadFooter{
+       max-width: 100%;
+      }
+  }
+  
+  @media (min-width: 768px) {
+    /* Additional styles for screens larger than 767px (e.g., tablets and desktops) */
+    .down-content-slider {
+        flex-direction: row;
+      margin-top: 30px;
+    }
+    .HeadFooter{
+        max-width: 100%;
+       }
+  }

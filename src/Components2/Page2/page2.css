@@ -1,0 +1,175 @@
+body {
+  background: white !important;
+}
+
+.page2 {
+  margin-left: 180px;
+  display: flex;
+  margin-top: 64px;
+}
+
+.leftside {
+  flex-shrink: 0;
+}
+
+.writh1 {
+  width: 382px;
+  font-size: 40px;
+}
+
+.writep {
+  width: 484px;
+  font-size: 16px;
+}
+
+.left-card {
+  flex-shrink: 0;
+  height: 540px;
+  background: #fafafa;
+}
+
+.mutiple-input {
+  margin-top: 41px;
+}
+
+.input1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 54px;
+  margin-bottom: 20px;
+}
+
+.left-in {
+  padding-top: 5px;
+  margin-left: 35px;
+  margin-top: 21px;
+  padding-right: 45px;
+}
+
+.input1 textarea {
+  width: 100%;
+  margin-top: 70px;
+  resize: vertical;
+  border: 1px solid #e7e7e7;
+  outline: none;
+}
+.cheks {
+  position: relative;
+}
+.cheks input {
+  padding-left: 30px; /* Adjust the padding to make space for the icon */
+}
+.cheks .icon {
+  position: absolute;
+  left: 10px; /* Adjust the left position as needed */
+  top: 50%;
+  transform: translateY(-50%);
+  color: grey;
+}
+.input1 input {
+  flex: 1;
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  border: 1px solid #e7e7e7;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.captcha {
+  margin-bottom: 20px;
+  margin-top: 95px;
+}
+
+.send-btn button {
+  width: 559px;
+  height: 50px;
+  flex-shrink: 0;
+  background-color: #00c6ff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-btn button:hover {
+  background-color: #0086ff;
+}
+
+.img {
+  width: 536px;
+  height: 556px;
+  flex-shrink: 0;
+  margin-left: 139px;
+  margin-top: 50px;
+}
+
+/* Media queries for responsiveness */
+
+@media (max-width: 1200px) {
+  .page2 {
+    margin-left: 138px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .page2 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 20px;
+  }
+
+  .leftside {
+    margin-bottom: 20px;
+  }
+
+  .writh1 {
+    width: 100%;
+    font-size: 30px;
+  }
+
+  .writep {
+    margin-left: 20px;
+    width: 80%;
+    font-size: 14px;
+  }
+
+  .left-card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .img {
+    display: none;
+  }
+
+  .send-btn button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .left-card {
+    width: 80%;
+
+    height: auto;
+  }
+
+  .img {
+    display: none;
+    height: auto;
+  }
+}
+.rc-anchor-container{
+  max-width: 80% !important;
+}

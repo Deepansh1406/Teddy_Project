@@ -1,0 +1,170 @@
+/* Base styles for larger screens */
+.crossimg {
+  text-align: end;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.logoimg {
+  width: 128px;
+  height: 128px;
+  margin-left: 30px;
+}
+
+.conta {
+  margin-left: 30px;
+  width: 811px;
+  height: 593px;
+  border: 1px solid;
+  flex-shrink: 0;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 56px;
+}
+
+.mainh2 {
+  width: 215px;
+  color: #262626;
+  font-family: Nunito;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.mainp {
+  width: 751px;
+  height: 208px;
+  flex-shrink: 0;
+  color: #636880;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.terms {
+  display: flex;
+  color: #00C6FF;
+  font-family: Nunito;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.ters-pri {
+  margin-left: 24px;
+}
+
+.buttons-extraa {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn69 {
+  display: flex;
+  width: 365px;
+  padding: 19px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 30px;
+  border: 2px solid #00c6ff;
+  cursor: pointer;
+}
+
+.button2 {
+  margin-left: 20px;
+}
+
+.btn68 {
+  cursor: pointer;
+  display: flex;
+  width: 365px;
+  height: 52px;
+  padding: 15px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 5px;
+  background: #00C6FF;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {
+  .conta {
+    width: 100%;
+    height: 100%;
+    /* padding: 20px; */
+  }
+
+  .logoimg {
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+  }
+
+  .mainh2 {
+    font-size: 18px;
+  }
+
+  .mainp {
+    width: 100%;
+    height: auto;
+  }
+
+  .buttons-extraa {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button2 {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+}
+
+/* Mobile styles */
+@media screen and (max-width: 480px) {
+  .conta {
+    padding: 10px;
+  }
+
+  .logoimg {
+    width: 60px;
+    height: 60px;
+  }
+
+  .mainh2 {
+    font-size: 16px;
+  }
+
+  .mainp {
+    width: 100%;
+    height: auto;
+  }
+
+  .terms {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ters-pri {
+    margin-left: 0;
+    margin-top: 5px;
+  }
+
+  .buttons-extraa {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn69,
+  .btn68 {
+    width: 100%;
+  }
+}

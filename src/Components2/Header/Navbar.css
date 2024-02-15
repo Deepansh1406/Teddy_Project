@@ -1,0 +1,69 @@
+/* Style the navigation menu */
+.topnav {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    
+    overflow: hidden;
+    background: white;
+    color: black;
+    position: relative;
+  }
+  #myLinks{
+    display: flex;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  .topnav a {
+
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    display: block;
+    position: absolute;
+    /* right: 0; */
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  .img-headlogo img{
+    margin-left: 197px;
+  }
+  @media (max-width: 768px) {
+    .topnav {
+        display:  block;
+    }
+    .sign-in{
+        margin-left: 9px;
+        margin-top: 5px;
+    }
+    /* Styles for screens wider than 768 pixels */
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  
+  .topnav {
+    display:  block;
+}
+.sign-in{
+    margin-left: 9px;
+    margin-top: 5px;
+}
+}
+
+  }
